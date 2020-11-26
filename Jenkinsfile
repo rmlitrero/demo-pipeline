@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building jenkins pipeline'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing jenkins pipeline'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying deployment of kubernetes pipeline as CD'
             }
         }
     }
