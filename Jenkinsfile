@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building jenkins pipeline'
+                echo 'Building jenkins pipeline for Webhooks'
             }
         }
         stage('Test') {
